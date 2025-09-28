@@ -34,3 +34,8 @@ vim.g.clipboard = {
 -- end
 
 vim.g.ai_cmp = false
+
+-- [[Language providers]]
+vim.g.python3_host_prog = vim.fn.expand("~/.pyenv/shims/python")
+vim.g.ruby_host_prog = vim.fn.expand("~/.rbenv/shims/ruby")
+vim.g.node_host_prog = vim.fn.expand("~/.volta/bin/node")
